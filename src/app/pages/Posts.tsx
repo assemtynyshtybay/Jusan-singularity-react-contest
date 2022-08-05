@@ -16,7 +16,7 @@ const Posts:FC = () => {
     return (
       <>
         <div>Posts</div>
-        <div>{posts && posts.map((item) => <Postt post={item} />)}</div>
+        <div>{posts && posts.map((item) => <div><Postt post={item} /></div>)}</div>
       </>
     );
 }

@@ -8,6 +8,7 @@ const Postt: FC<Props> = ({ post }) => {
     <>
       <span>post.title</span>
       <span>post.body</span>
+      <hr/>
     </>
   );
 };
